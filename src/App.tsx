@@ -3,7 +3,7 @@ interface ButtonProps {
   text?: string;
 }
 function Button(props: ButtonProps) {
-  return <button className="bg-">{props.text ?? 'Defaul'}</button>
+  return <button className="bg-violet-500 p-2">{props.text ?? 'Defaul'}</button>
 }
 function App() {
   return(  
