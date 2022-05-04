@@ -12,3 +12,7 @@
   hover:bg-violet-700
   transition-colors;
 }
+
+body  {
+  @apply bg-[#09090A] text-zinc-100;
+}
